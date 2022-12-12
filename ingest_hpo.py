@@ -69,7 +69,7 @@ def main():
         data = json.load(fp)
 
     driver = get_driver()
-    # create_nodes(data, driver)
+    create_nodes(data, driver)
     create_rels(data, driver)
 
 
